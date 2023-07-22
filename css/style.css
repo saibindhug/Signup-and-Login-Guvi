@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto' !important;
+  font-weight: bold;
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+label {
+  margin-bottom: 0 !important;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.title {
+  font: italic bold 25px "Tangerine";
+  letter-spacing: -1px;
+  margin-bottom: .5rem;
+}
+
+
+.pop_form {
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.6rem;
+  background-color: #ffffff;
+}
+
+.pop_success {
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.6rem;
+  background-color: #ffffff;
+  display: -ms-grid !important;
+  display: grid !important;
+  text-align: center;
+}
+
+#nameErr, #emailErr, #passwordErr {
+  color: red;
+  opacity: 0.7;
+}
+
+#success {
+  display: none;
+}
+
+#success img {
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+}

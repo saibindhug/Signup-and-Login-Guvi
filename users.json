@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "name": "SaiBindhu",
+        "email": "bindhu@gmail.com",
+        "password": "$2y$10$x9d7ZPUgDIaOqmeQHDUe4OeKWXgj\/vqtWvoXTGLdkfTfTbbQx5UOa",
+        "age": "21",
+        "dob": "1999-03-11",
+        "contact": "9898989898",
+        "timestamp": "2023-07-21 17:06:22"
+    }
+]
