@@ -4,9 +4,20 @@
         "name": "SaiBindhu",
         "email": "bindhu@gmail.com",
         "password": "$2y$10$x9d7ZPUgDIaOqmeQHDUe4OeKWXgj\/vqtWvoXTGLdkfTfTbbQx5UOa",
-        "age": "21",
-        "dob": "1999-03-11",
-        "contact": "9898989898",
         "timestamp": "2023-07-21 17:06:22"
+    },
+    {
+        "id": "2",
+        "name": "Sai",
+        "email": "sai@gmail.com",
+        "password": "$2y$10$uWjaxDf8Clv75EPpR.IW7u9YtNG2Q0O0.g3ztIPmj1Vo8MfRpmNcC",
+        "timestamp": "2023-07-26 17:40:06"
+    },
+    {
+        "id": "3",
+        "name": "Varsha",
+        "email": "varsha@gmail.com",
+        "password": "$2y$10$gDjyw6YHZd76wPgu6QWb0u7oPcot6fuJszRXb9pLd8M\/X9ICvQQRW",
+        "timestamp": "2023-07-26 18:22:24"
     }
 ]

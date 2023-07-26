@@ -33,9 +33,6 @@ CREATE TABLE `userAccount` (
   `name` varchar(20) NOT NULL,
   `email` varchar(25) NOT NULL,
   `password` varchar(60) NOT NULL,
-  `age` int(3) DEFAULT NULL,
-  `dob` date DEFAULT NULL,
-  `contact` bigint(10) DEFAULT NULL,
   `timestamp` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -43,8 +40,8 @@ CREATE TABLE `userAccount` (
 -- Dumping data for table `userAccount`
 --
 
-INSERT INTO `userAccount` (`id`, `name`, `email`, `password`, `age`, `dob`, `contact`, `timestamp`) VALUES
-(1, 'SaiBindhu', 'bindhu@gmail.com', '$2y$10$x9d7ZPUgDIaOqmeQHDUe4OeKWXgj/vqtWvoXTGLdkfTfTbbQx5UOa', 21, '1999-03-11', 9898989898, '2023-07-21 11:36:22');
+INSERT INTO `userAccount` (`id`, `name`, `email`, `password`, `timestamp`) VALUES
+(1, 'SaiBindhu', 'bindhu@gmail.com', '$2y$10$x9d7ZPUgDIaOqmeQHDUe4OeKWXgj/vqtWvoXTGLdkfTfTbbQx5UOa','2023-07-21 11:36:22');
 
 --
 -- Indexes for dumped tables
